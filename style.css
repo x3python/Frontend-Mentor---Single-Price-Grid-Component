@@ -57,7 +57,12 @@ h3{
 .h3white{
     color: #fff;
     padding-bottom: 0.5rem;
+}
+.h3white_sub{
+    color: #fff;
+    padding-bottom: 0.5rem;
     opacity: 0.8;
+    line-height: 1.5rem;
 }
 h4{
     color: #fff;
@@ -87,7 +92,7 @@ h5{
     justify-content: center;
     border-bottom-left-radius: 0.7rem;
     padding-top: 3rem;
-    padding-bottom: 2.5rem;
+    padding-bottom: 3rem;
 }
 .cr-lt{
     grid-area: cr-lt;
@@ -105,11 +110,24 @@ h5{
 }
 button{
     text-align: center;
-    border: 0.4rem solid hsl(71, 73%, 54%);
+    border: 0.3rem solid hsl(71, 73%, 54%);
     background-color: hsl(71, 73%, 54%);
     border-radius: 0.4rem;
     font-family: 'Karla', sans-serif;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: #fff;
+    box-shadow: 0px 10px 10px hsl(179, 61%, 36%);
+}
+
+@media(max-width:800px){
+    body{
+        display: grid;
+        height: 100vh;
+        width: fit-content; 
+    }
+    main.card{
+        display: grid;
+        grid-template-areas: 'cr-wt' 'cr-dk' 'cr-lt';
+    }
 }
