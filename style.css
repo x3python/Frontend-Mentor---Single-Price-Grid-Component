@@ -123,11 +123,59 @@ button{
 @media(max-width:800px){
     body{
         display: grid;
-        height: 100vh;
-        width: fit-content; 
+        width: 375px;
+        height: fit-content;
+        margin: 100px auto;
+        padding: 0;
     }
     main.card{
         display: grid;
+        grid-template-columns: 1fr;
         grid-template-areas: 'cr-wt' 'cr-dk' 'cr-lt';
+        width: 350px;
+    }
+    .cr-wt{
+        border-top-right-radius: 0.5rem;
+        border-top-left-radius: 0.5rem;
+        padding: 2rem;
+    }
+    .cr-dk{
+        border-bottom-left-radius: 0;
+        padding: 0;
+        justify-content: left;
+        padding: 2rem;
+    }
+    .cr-lt{
+        border-bottom-left-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+        padding: 2rem;
+    }
+    button{
+        border: border: 1rem solid hsl(71, 73%, 54%);
+        padding-bottom: 0;
+        width: 285px;
+        height: 50px;
+    }
+    h1{
+        font-size: 1.4rem;
+        padding-bottom: 1.5rem;
+    }
+    h2.title{
+        font-size: 17px;
+        padding-bottom: 1.5rem;
+    }
+    h3{
+        font-size: 15px;
+        padding-bottom: 1rem;
+    }
+    .h2white{
+        padding-bottom: 1rem;
+        font-size: 1.2rem;
+    }
+    .h3white{
+        padding-bottom: 1.7rem;
+    }
+    .item{
+        padding-bottom: 0.5rem;
     }
 }
