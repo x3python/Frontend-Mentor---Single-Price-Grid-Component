@@ -4,6 +4,8 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 
 ### Screenshot
+![desktop](https://user-images.githubusercontent.com/83002862/221716861-5379c9eb-a8d5-460e-9d88-f0889996855e.gif)
+![mobile](https://user-images.githubusercontent.com/83002862/221716872-dc2e8efb-48d2-49ae-acfa-f84d7291f630.gif)
 
 
 
